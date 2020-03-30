@@ -33,13 +33,13 @@ Daraxtga osilganida, ovqatlanish ishlamaydi.
 Buzilib ketganda - ovqat ishlamaydi.
 Ovqatlanganda - olma qatoridan chiqariladi.
 Ssenariyga misol:
-$ apple = yangi Apple ('yashil');
-echo $ apple-> rang; // yashil
-$ apple-> ovqat (50); // Istisno tashlash - daraxtda olma yeyolmaysiz
-echo $ apple-> hajmi; // 1 - o'nlik
-$ apple-> fallToGround (); // erga tushmoq
-$ apple-> ovqat (25); // olmaning to'rtdan birini tishlash
-echo $ apple-> hajmi; // 0,75
+$olma = new OlmaHosil();
+echo $olma-> rang; // yashil
+$olma-> yeyilgan (50); // Istisno - daraxtda olma yeyolmaysiz
+echo $olma-> olchami; // 1 - o'nlik
+$olma-> tushdi (); // yerga tushmoq
+$olma-> yeyigan (25); // olmaning to'rtdan birini tishlash
+echo $olma-> olchami; // 0,75
 Ilovadagi sahifada bitta sahifada joylashgan barcha olma ko'rsatilishi kerak
 tegishli tugma yordamida tasodifiy sonda hosil bo'lishi mumkin.
 Har bir olma yonida tugmachalar yoki mos keladigan shakllar o'rnatilishi kerak
