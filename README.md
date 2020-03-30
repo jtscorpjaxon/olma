@@ -32,14 +32,15 @@ Daraxtga osilganida, ovqatlanish ishlamaydi.
 5 soat yotgandan keyin - u buzadi.
 Buzilib ketganda - ovqat ishlamaydi.
 Ovqatlanganda - olma qatoridan chiqariladi.
-Ssenariyga misol:
-$olma = new OlmaHosil();
-echo $olma-> rang; // yashil
-$olma-> yeyilgan (50); // Istisno - daraxtda olma yeyolmaysiz
-echo $olma-> olchami; // 1 - o'nlik
-$olma-> tushdi (); // yerga tushmoq
-$olma-> yeyigan (25); // olmaning to'rtdan birini tishlash
-echo $olma-> olchami; // 0,75
+<br>
+Ssenariyga misol:<br>
+$olma = new OlmaHosil();<br>
+echo $olma-> rang; // yashil<br>
+$olma-> yeyilgan (50); // Istisno - daraxtda olma yeyolmaysiz<br>
+echo $olma-> olchami; // 1 - o'nlik<br>
+$olma-> tushdi (); // yerga tushmoq<br>
+$olma-> yeyigan (25); // olmaning to'rtdan birini tishlash<br>
+echo $olma-> olchami; // 0,75<br>
 Ilovadagi sahifada bitta sahifada joylashgan barcha olma ko'rsatilishi kerak
 tegishli tugma yordamida tasodifiy sonda hosil bo'lishi mumkin.
 Har bir olma yonida tugmachalar yoki mos keladigan shakllar o'rnatilishi kerak
@@ -47,7 +48,7 @@ vazifada (yiqilish, foizni yeyish ...).
 Vazifada hech qanday cheklovlar va talablar yo'q. Uning echimiga barcha yondashuvlar aniqlanadi
 tizimni loyihalashda to'g'ri algoritmni tanlash va oldindan ko'rish qobiliyati
 algoritmni ishlab chiqish uchun har qanday imkoniyatlar. Vazifani saqlash omboriga yuklash kerak
-gitHub, buyruqlar tarixini saqlab. Ijodkorlik mamnuniyat bilan qabul qilinadi.
+gitHub, buyruqlar tarixini saqlab. Ijodkorlik mamnuniyat bilan qabul qilinadi.<br><br>
 Установить advanced шаблон Yii2 фреймворка, в backend-приложении реализовать следующий
 закрытый функционал (доступ в backend-приложение должен производиться только по паролю,
 сложного разделения прав не требуется):
