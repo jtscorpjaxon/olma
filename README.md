@@ -91,3 +91,4 @@ echo $apple->size; // 0,75
 любые возможности развития алгоритма. Задание должно быть выложено в репозиторий на
 gitHub, с сохранением истории коммитов. Креативность только приветствуется.
 
+<img src="https://github.com/jtscorpjaxon/olma/blob/master/Screenshot.jpg" height="100px">
